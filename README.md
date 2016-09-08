@@ -1,0 +1,3 @@
+# odoo
+
+odoo installation full
