@@ -49,4 +49,4 @@ run chown odoo: /etc/odoo-server.conf
 run chmod 640 /etc/odoo-server.conf
 run update-rc.d odoo-server defaults
 expose 8069
-entrypoint /etc/init.d/odoo-server start && bash
+entrypoint /etc/init.d/odoo-server start && bash && tail -f /dev/null
