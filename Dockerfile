@@ -1,5 +1,5 @@
 from ubuntu:14.04
-maintainer prathe
+maintainer prathes
 run apt-get -y update && apt-get -y upgrade
 
 run apt-get install -y 	subversion git bzr bzrtools postgresql postgresql-server-dev-9.3 \
